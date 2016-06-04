@@ -101,3 +101,6 @@ var pedro = new Persona("pedro", 17);
 var cerveza = new Bebida(true);
 var ron = new Bebida(true);
 var agua = new Bebida(false);
+
+juan.beber(cerveza).beber(ron).beber(agua);
+pedro.beber(ron);
